@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Vishak Android App - Homework#9 Facebook</string>
+    <string name="message1">Login to Vishak Homework#9</string>
+    <string name="message2">Android Facebook Post</string>
+    <string name="buttonText">Post to Wall</string>
+
+</resources>

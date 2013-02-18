@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/white"
+	android:gravity="center_horizontal">
+	
+	<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/gallery"
+	    android:visibility="invisible"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="bottom" 
+		/>
+		
+	<EditText android:id="@+id/textBox" 
+		android:visibility="invisible"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:background="@android:drawable/editbox_background" 
+        />
+		
+	<Button android:id="@+id/postButton" 
+        android:text="@string/buttonText"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingRight="20dp" 
+        android:paddingLeft="20dp"
+        android:layout_margin="20dp" 
+		/>
+	
+	<TextView android:id="@+id/text1" 
+        android:text="@string/message1"
+        android:textColor="@drawable/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		/>    
+		
+	<TextView android:id="@+id/text2" 
+        android:text="@string/message2"
+        android:textColor="@drawable/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		/>	
+				
+	<com.facebook.android.LoginButton
+        android:id="@+id/login"
+        android:src="@drawable/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_margin="30dp"
+        />
+
+</LinearLayout>
